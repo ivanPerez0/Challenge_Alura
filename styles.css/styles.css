@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+
+    flex-direction: column;
+}
+
+
+.campo-mensaje{
+    height: 200px;
+    width:auto
+}
+
+.campo-desencriptado{
+    margin-top: 20px;
+    height: 200px;
+    width: auto
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.encriptar{
+    background-color: green;
+    color: wheat;
+    border: none;
+    padding: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+}
+
+.denencriptar{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+textarea{
+    resize: none;
+}
+
+#m-desencriptar{
+    cursor: pointer;
+}
+@media only screen and (min-width: 992px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .campo-desencriptado{
+       margin-top: 0;
+        height: 200px;
+        width: auto
+    }
+    
+}
