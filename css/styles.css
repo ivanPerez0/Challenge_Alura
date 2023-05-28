@@ -1,0 +1,89 @@
+.container-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    font-size: 1.2em;
+}
+
+#text-area {
+    background-color: #F3F5FC;
+
+    background-image: url("..//img/fondo_input.png");
+    background-repeat: no-repeat;
+
+}
+
+
+
+.change button {
+    display: block;
+    font-size: 1.3em;
+    margin: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.change>button:nth-child(2) {
+    margin-bottom: 0px;
+}
+
+.change {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#output {
+    background-image: url("../img/fondo_output.png");
+    background-repeat: no-repeat;
+    background-color: #F3F5FC;
+    background-size:contain;
+    cursor: pointer;
+}
+
+
+.button-group {
+    display: flex;
+
+    width: 50%;
+}
+
+.button-group button {
+
+    background-color: #0B3971;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: #456693;
+    cursor: pointer;
+}
+
+.button-group>button:nth-child(2) {
+    background-color: white;
+    color: black;
+    border: 1px solid #456693;
+    margin-left: 10px;
+
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.output-area{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+
+}
